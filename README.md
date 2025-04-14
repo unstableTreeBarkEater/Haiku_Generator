@@ -20,3 +20,14 @@ Tokenizer: GPT2Tokenizer with <EOS> mapped to pad_token
 Max Token Length: 64 tokens per haiku
 
 Subset: Trained on ~4,500 high-quality haikus
+
+# SAMPLE HAIKU
+Haiku 1 
+Whispering leaves dance,
+Nature's symphony in tune,
+Spring's gentle heart.
+
+Haiku 2 
+Amber sun ascends,
+Stillness embraces the universe,
+Stillness in her embrace.
