@@ -8,3 +8,15 @@ A fine-tuned GPT-2 model trained to generate structured and poetic haikus based 
 Source: Hugging Face - davanstrien/haiku_dpo
 
 Structure: used the chosen column only (high-quality human-preferred haikus)
+
+# MODEL
+
+Base Model: gpt2-medium
+
+Training Tool: Hugging Face Transformers + Datasets + Trainer
+
+Tokenizer: GPT2Tokenizer with <EOS> mapped to pad_token
+
+Max Token Length: 64 tokens per haiku
+
+Subset: Trained on ~4,500 high-quality haikus
